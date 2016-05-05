@@ -1,7 +1,7 @@
 {
   "name": "mini-mongo",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "It's like mongo, just like sqlite is like mysql!",
   "main": "index.js",
   "scripts": {
   },
@@ -33,5 +33,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/rezen/mini-mongo"
-  },
+  }
 }

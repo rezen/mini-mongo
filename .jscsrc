@@ -1,0 +1,12 @@
+{
+    "preset": "airbnb",
+    "fileExtensions": [ ".js", "jscs" ],
+    "safeContextKeyword": "self",
+    "excludeFiles": [
+        "test/data/**"
+    ],
+    "validateIndentation": 2,
+    "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+    "disallowSpaceAfterObjectKeys":"ignoreMultiLine",
+    "esnext" : true
+}

@@ -4,13 +4,16 @@
   "description": "It's like mongo, just like sqlite is like mysql!",
   "main": "index.js",
   "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Andres Hermosilla <an2dres5m@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "eventemitter2": "^1.0.3",
-    "nedb": "^1.8.0"
+    "nedb": "^1.8.0",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
@@ -33,5 +36,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/rezen/mini-mongo"
-  }
+  },
+  "snyk": true
 }

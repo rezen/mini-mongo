@@ -8,7 +8,7 @@
   "author": "Andres Hermosilla <an2dres5m@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.0.0-rc.3",
+    "async": "^3.2.2",
     "eventemitter2": "^1.0.3",
     "nedb": "^1.8.0"
   },
